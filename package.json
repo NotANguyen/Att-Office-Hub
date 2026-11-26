@@ -1,18 +1,15 @@
 {
   "name": "att-office-hub",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Custom Discord bot foundation for an AT&T B2B sales office",
+  "version": "1.0.0",
+  "description": "Custom Discord bot for an AT&T B2B sales office",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "deploy": "node src/deploy-commands.js"
   },
-  "engines": {
-    "node": ">=22.12.0"
-  },
+  "engines": { "node": ">=22.12.0" },
   "dependencies": {
-    "discord.js": "^14.27.0",
+    "discord.js": "^14.19.3",
     "dotenv": "^16.4.7"
   }
 }
